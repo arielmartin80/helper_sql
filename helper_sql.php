@@ -26,7 +26,9 @@ include_once 'conexion.php';
 
 
 
-	#Crea una tabla en la bd con los atributos que toma del array $atributos como nombres de las columnas.
+	#Crea una tabla en la bd con los valores que toma del array $atributos 
+	#toma el id como nombres de las columnas y como tipo de dato el valor de los atributos
+	#EJ: $atributos=("nombre"=>"varchar(10)","edad"=>"int");
 	#Retorna 1 si la consulta se realizó con exito.
 	function create_table($table_name, $atributos){
 
