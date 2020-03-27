@@ -1,5 +1,5 @@
 <?php
-include_once 'conexion.php';
+include_once 'conexion_v2.php';
 
 
 	#Verifia si existe una tabla en la BD, retorna 1 si existe, 0 si no existe
