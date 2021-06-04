@@ -192,7 +192,7 @@ include_once 'conexion_v2.php';
 
 
 
-	#ejecuta una consulta sql recibida y retorna su resultado en fforma de array
+	#ejecuta una consulta sql recibida y retorna su resultado en forma de array
 	function executeQuery($SQL){
 
 		$conn = Conexion::getInstance()->conectar();
