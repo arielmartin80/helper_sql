@@ -2,7 +2,7 @@
 include_once 'conexion_v2.php';
 
 
-	#Verifia si existe una tabla en la BD, retorna 1 si existe, 0 si no existe
+	#Verifica si existe una tabla en la BD. Retorna 1 si existe, 0 si no existe
 	function check_table($table){
 
 		$conn = Conexion::getInstance()->conectar();
